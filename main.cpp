@@ -14,11 +14,8 @@ getline(cin, full_name);
 cout << "Enter your age: ";
 cin >> age;
 
-cout << "\nHello, " << full_name << "! You are " << age << " years old." << endl;
-
-int years_until_60 = 21 - age;
-int turn_60_year = current_year + years_until_60;
-cout << "You will turn 21 years old in the year " << turn_60_year << "." << endl;
+cout << "\nHello, " << full_name << "! You are " << age << " years old.\n";
+cout << "You will turn 21 years old in the year " << current_year + (20 - age) << ".\n";
 
 return 0;
 
